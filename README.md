@@ -5,7 +5,10 @@ npm install
 
 Once the dependencies are installed  you can start the server using the following command:
 
-npm start
+npm start                                             
+
+Now run  with Command 
+mode server.js                  
 
 // In postman // 
  # User Routes 
