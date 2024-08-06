@@ -16,7 +16,9 @@ To create user details use route -    http://localhost:3000/api/user/create
 To retrieve user detail use route -  http://localhost:3000/api/user/users/:userId
  # Expense Routes 
 To create an expense for mutiple participants - http://localhost:3000/api/expense/create 
-   example for creating an expense {
+   example for creating an expense                                                                                                                               
+   
+  {
     "description": "Dinner at restaurant",
     "userId": "60d5f9d5f2e4f504f1b7b3c7",
     "amount": 50,
@@ -46,7 +48,7 @@ To create an expense for mutiple participants - http://localhost:3000/api/expens
     ],
     "date": "2023-07-29T00:00:00.000Z"
   
-}                                                                                                                                                      
+}           ]                                                                                                                                           
 To retrieve expense of a certain user         - http://localhost:3000/api/expense/total-expenses/:userId                                      
 To retrieve overall expenses                  - http://localhost:3000/api/expense/overallExpense                                                    
 To retrieve BlanceSheet of an user            - http://localhost:3000/api/expense/userBalanceSheet/:userId                                                
