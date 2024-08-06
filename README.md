@@ -21,7 +21,7 @@ To create an expense for mutiple participants - http://localhost:3000/api/expens
 
 Here is an example of a JSON object representing an expense:
 
-```json
+```
 {
     "description": "Dinner at restaurant",
     "userId": "60d5f9d5f2e4f504f1b7b3c7",
@@ -47,8 +47,8 @@ Here is an example of a JSON object representing an expense:
         }
     ],
     "date": "2023-07-29T00:00:00.000Z"
-}` ``` `
-
+} 
+```
 
                                                                                                                      
 To retrieve expense of a certain user         - http://localhost:3000/api/expense/total-expenses/:userId                                      
