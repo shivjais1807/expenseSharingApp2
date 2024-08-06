@@ -25,7 +25,6 @@ Here is an example of a JSON object representing an expense:
 {
     "description": "Dinner at restaurant",
     "userId": "60d5f9d5f2e4f504f1b7b3c7",
-    "amount": 50,
     "totalAmount": 200,
     "splitType": "exact",
     "participants": [
