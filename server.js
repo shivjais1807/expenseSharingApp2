@@ -14,7 +14,7 @@ require("./routes/api")(app);
 
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/expense-share", {
+  .connect("mongodb+srv://test:test@cluster0.tyyfzgk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
